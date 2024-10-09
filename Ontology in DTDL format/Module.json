@@ -1,0 +1,40 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:FASTEST:dtmi:FASTEST:Module;1",
+    "@type": "Interface",
+    "displayName": "Module",
+    "extends":"dtmi:FASTEST:dtmi:FASTEST:Component;1",
+    "contents":[
+        {
+            "@type": "Property",
+            "name": "ListOfCellsIDs",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "CellArrangement",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "CellBalancing",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "ModuleConfiguration",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "NumberOfCells",
+            "schema": "integer"
+        },
+        {
+            "@type": "Relationship",
+            "name": "contains",
+            "displayName": "contains",
+            "target": "dtmi:FASTEST:dtmi:FASTEST:Cell;1"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:FASTEST:dtmi:FASTEST:Component;1",
+    "@type": "Interface",
+    "displayName": "Component",
+    "contents":[
+        {
+            "@type": "Property",
+            "name": "ID",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "Capacity",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "CycleLife",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "DateOfManufacture",
+            "schema": "dateTime"
+        },
+        {
+            "@type": "Property",
+            "name": "Dimensions",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "EndOfLifeConsiderations",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "EnergyDensity",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "InternalResistance",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "OperatingTemperatureMin",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "OperatingTemperatureMax",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "SpecificEnergy",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "Voltage",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "Weight",
+            "schema": "double"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:FASTEST:dtmi:FASTEST:Test;1",
+    "@type": "Interface",
+    "displayName": "Test",
+    "contents":[
+        {
+            "@type": "Property",
+            "name": "ComponentID",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "TestID",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "TestType",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "TestingProceduresID",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "TimeStepBeggining",
+            "schema": "date"
+        },
+        {
+            "@type": "Property",
+            "name": "SimulationVersion",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "TestBentch",
+            "schema": "string"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "Time",
+            "schema": "time"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "Voltage",
+            "schema": "double"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "Current",
+            "schema": "double"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "Temperature",
+            "schema": "string"
+        },
+        {
+            "@type": "Relationship",
+            "name": "MadeTo",
+            "displayName": "MadeTo",
+            "target": "dtmi:FASTEST:dtmi:FASTEST:Component;1"
+        },
+        {
+            "@type": "Relationship",
+            "name": "belongs",
+            "displayName": "belongs",
+            "target": "dtmi:FASTEST:dtmi:FASTEST:TestProcedures;1"
+        },
+        {
+            "@type": "Relationship",
+            "name": "MadeIn",
+            "displayName": "MadeIn",
+            "target": "dtmi:FASTEST:dtmi:FASTEST:TestBench;1"
+        }
+    ]
+}

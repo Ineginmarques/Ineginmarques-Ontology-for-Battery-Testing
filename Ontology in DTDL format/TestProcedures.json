@@ -1,0 +1,33 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:FASTEST:dtmi:FASTEST:TestProcedures;1",
+    "@type": "Interface",
+    "displayName": "TestProcedures",
+    "contents":[
+        {
+            "@type": "Property",
+            "name": "TestingProceduresID",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "ExpectedResults",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "TestCompletionCriteria",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "TestExecutionSteps",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "TestPreRequisites",
+            "schema": "string"
+        }
+    ]
+}

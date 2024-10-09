@@ -1,0 +1,39 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:FASTEST:dtmi:FASTEST:Cell;1",
+    "@type": "Interface",
+    "displayName": "Cell",
+    "extends":"dtmi:FASTEST:dtmi:FASTEST:Component;1",
+    "contents":[
+        {
+            "@type": "Property",
+            "name": "ChargeRate",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "ChemicalStability",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "Chemistry",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "ElectrodeMaterials",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "Electrolyte",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "SelfDischargeRate",
+            "schema": "double"
+        }
+    ]
+}

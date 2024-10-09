@@ -1,0 +1,18 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:FASTEST:dtmi:FASTEST:TestBench;1",
+    "@type": "Interface",
+    "displayName": "TestBench",
+    "contents":[
+        {
+            "@type": "Property",
+            "name": "TestBenchID",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "TestBenchType",
+            "schema": "string"
+        }
+    ]
+}
